@@ -1,0 +1,35 @@
+.contactBlock .ant-form {
+  max-width: 640px;
+  margin: auto;
+}
+
+.contactBlock .ant-form textarea {
+  min-height: 120px;
+  height: 120px;
+}
+.titleHolder {
+  text-align: center;
+  position: relative;
+  padding: 0 0 20px;
+  margin: 0 0 40px;
+}
+
+.titleHolder:after {
+  transform: translateX(-50%);
+  content: "";
+  background: #1890ff;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  height: 3px;
+  width: 50px;
+}
+.container-fluid {
+  background-color: black;
+}
+#getintouch {
+  color: white;
+}
+#agree {
+  color: white;
+}
